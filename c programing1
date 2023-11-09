@@ -1,0 +1,47 @@
+#include<stdio.h>
+//function to input elements in a matrix
+void inputmatrix(int mat[][3]){
+for(int i=0;i<3;++i){
+for(int j=0;j<3;++j){
+printf("Enter element at position[%d][%d]:",i+1,j+1);
+scanf("%d,&mat[i][j]);
+}
+}
+}
+//function to print a matrix 
+void printmatrix(int mat[][3]){
+for(int i=0;i<3;++i){
+for(int j=0;j<3;++j){
+printf("%d",mat[i][j]);
+}
+print("\n);
+}
+}
+//function to calculate the adjoint of a matrix
+void adjointmatrix(int mat[][3],int adj[][3])
+{
+//implement the logic to find the inverse of the martix
+//...
+}
+int main(){
+int matrixA[3][3],B[3][3];
+Printf("enter elements of a matrix A:\n");
+inputMatrix(matrixA);
+Print("\nEnter elements for matrix B:\n");
+intputmatrix(matrixB)
+printf("\nMatrix A:\n");
+printmartix(matrixA);
+Print("\nMatrix B:\n");
+printMatrix(matrixB);
+//calculate and print the adjoint of matrix A
+// adjointMatrix(matrixA,adjMatrixA);
+// Printf("\nAdjoint of Matrix A:\n");
+//printMatrix(adjMatrixA);
+//calculate and print the inverse of the matrix B
+//InverseMatrix(matrixB,invMatrixB);
+//printf("\ninverse of Matrix B:\n");
+//printMatrix(intMatrixB);
+return 0;
+}
+
+
